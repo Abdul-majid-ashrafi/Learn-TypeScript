@@ -1,8 +1,8 @@
-// Without Data Types
+//With Data Types
 
-let firstName = "Majid";
-let lastName = "Ashraf";
-let phoneNumber = 123456;
+let firstName: string = "Majid";
+let lastName: string = "Ashraf";
+let phoneNumber: number = 123456;
 
 console.log("firstName ", firstName)
 console.log("lastName ", lastName)
