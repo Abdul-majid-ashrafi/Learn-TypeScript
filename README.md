@@ -40,7 +40,7 @@ Just open up the terminal at the location of the file and run the following comm
 
 `tsc index.ts`
 
-After it you will see the file called index.js in same folder with old JavaScript.
+After it you will see the file called `index.js` in same folder with old JavaScript.
 
  
  ## Data types
