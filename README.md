@@ -133,3 +133,16 @@ Developer.displayMake(); // This User is Developer
 We create an object of a class, 
 we use the keyword called `new` and call the constructor of `User` class and passed it his properties. 
 Now this `Developer` object has its own properties of gentleman , phoneNumber , and isDeveloper. The object also can call the method of displayMake, which would have access to the properties of `Developer`.
+
+
+You can also follow these link:
+
+[Typescript-in-5-minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+
+[FreeCodeCamp by Per Harald Borgen](https://www.freecodecamp.org/news/learn-typescript-in-5-minutes-13eda868daeb/)
+
+[TypeScript Tutorials](https://www.tutorialsteacher.com/typescript)
+
+Happy coding :)
+
+
