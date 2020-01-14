@@ -75,6 +75,15 @@ These are the types which are built in TypeScript
 let phoneNumber: number = 0308123456789;  
 let fullName: string = 'Majid Ashraf';  
 let isDeveloper: boolean = true;
+
+
+
+const greeter = (fullName: string): string => {
+    return "Hello, " + fullName;
+}
+let user = `${firstName + ' ' + lastName}`;
+
+console.log(greeter(user));
 ```
 ### User-defined types:
 The `User-defined` types are:
@@ -85,4 +94,42 @@ The `User-defined` types are:
 * tuple
 
 
+#### Object-oriented programming
+TypeScript supports all the features of object-oriented programming, such as classes and interfaces.
+#### Class
+ TypeScript supports new features in JavaScript, like support for class-based object-oriented programming.
+ In object-oriented programming, a class is the template of objects.
+ A class also encapsulates data for the object.
 
+
+ ```
+ class User {
+    // properties  
+    gentleman: String;
+    phoneNumber: Number;
+    isDeveloper: Boolean;
+
+    constructor(gentleman: String, phoneNumber: Number, isDeveloper: Boolean) {
+        this.gentleman = gentleman;
+        this.phoneNumber = phoneNumber;
+        this.isDeveloper = isDeveloper;
+    }
+// function
+    displayMake(): void {
+        console.log(`My name is ${this.gentleman}`);
+    }
+}
+```
+
+Here we have declared a `User` class, along with some of its `properties` and `function`, `properties` are initializing in the `constructor`. 
+We also have a method which would display some message using its property.
+
+Let’s develop how we can create a new instance of User class:
+```
+const Developer = new User('Majid Ashraf', 9230812345678, true);
+Developer.displayMake(); // This User is Developer
+```
+
+We create an object of a class, 
+we use the keyword called `new` and call the constructor of `User` class and passed it his properties. 
+Now this `Developer` object has its own properties of gentleman , phoneNumber , and isDeveloper. The object also can call the method of displayMake, which would have access to the properties of `Developer`.
